@@ -2,9 +2,54 @@
 
 ## Nome do Exercicio
 
-- Explicação do exercício: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci.
-Donec erat mauris, laoreet in tortor vel, eleifend suscipit nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci. Donec erat mauris, laoreet in tortor vel, eleifend suscipit nibh. 
+- Explicação do exercício: Criar uma função que receba a idade de uma pessoa e diga quais filmes aquela pessoa pode assitir. Use como base o seguinte objeto:
+
+let filmes = {
+  {
+    nome: "Deadpool",
+    classificacaoEtaria: 18 
+  },
+  {
+    nome: "Your Name",
+    classificacaoEtaria: 0
+  },
+  {
+    nome: "Kill Bill",
+    classificacaoEtaria: 
+  },
+  {
+    nome: "Shrek",
+    classificacaoEtaria: 0 
+  },
+  {
+    nome: "",
+    classificacaoEtaria: 
+  },
+  {
+    nome: "",
+    classificacaoEtaria: 
+  },
+  {
+    nome: "",
+    classificacaoEtaria: 
+  },
+  {
+    nome: "",
+    classificacaoEtaria: 
+  },
+  {
+    nome: "",
+    classificacaoEtaria: 
+  },
+  {
+    nome: "",
+    classificacaoEtaria: 
+  },
+  {
+    nome: "Ninja Assassino",
+    classificacaoEtaria: 18
+  },
+ }
 ---
 
 Terminou o exercício? Dá uma olhada nessa checklist e confere se tá tudo certinho, combinado?!
