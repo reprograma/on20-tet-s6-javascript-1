@@ -2,7 +2,7 @@
 
 ## Nome do Exercicio
 
-- Explicação do exercício: Criar uma função que receba a idade de uma pessoa e diga quais filmes aquela pessoa pode assitir. Use como base o seguinte objeto:
+- Explicação do exercício: Criar uma função que receba a idade de uma pessoa e diga quais filmes aquela pessoa pode assistir. Use como base o seguinte objeto:
 
 let filmes = {
   {
@@ -15,35 +15,47 @@ let filmes = {
   },
   {
     nome: "Kill Bill",
-    classificacaoEtaria: 
+    classificacaoEtaria: 18
   },
   {
     nome: "Shrek",
     classificacaoEtaria: 0 
   },
   {
-    nome: "",
-    classificacaoEtaria: 
+    nome: "Matrix ",
+    classificacaoEtaria: 14 
   },
   {
-    nome: "",
-    classificacaoEtaria: 
+    nome: "Você nem imagina",
+    classificacaoEtaria: 12
   },
   {
-    nome: "",
-    classificacaoEtaria: 
+    nome: "Brilho eterno de uma mente sem lembranças",
+    classificacaoEtaria: 14
   },
   {
-    nome: "",
-    classificacaoEtaria: 
+    nome: "Scott Pilgrim contra o mundo",
+    classificacaoEtaria: 12
   },
   {
-    nome: "",
-    classificacaoEtaria: 
+    nome: "Capitão Fantástico",
+    classificacaoEtaria: 14
   },
   {
-    nome: "",
-    classificacaoEtaria: 
+    nome: "El Camino",
+    classificacaoEtaria: 16 
+  },
+  {
+    nome: "Parasita",
+    classificacaoEtaria: 16 
+  },
+  {
+    nome: "Star Wars: o retorno do jedi",
+    classificacaoEtaria: 0
+  },
+  {
+    nome: "Red: crescer é uma fera",
+    classificacaoEtaria: 0
   },
   {
     nome: "Ninja Assassino",
