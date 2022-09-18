@@ -4,7 +4,7 @@
 
 - Explicação do exercício: Criar uma função que receba a idade de uma pessoa e diga quais filmes aquela pessoa pode assistir. Use como base o seguinte objeto:
 
-let filmes = {
+let filmes = [
   {
     nome: "Deadpool",
     classificacaoEtaria: 18 
@@ -61,7 +61,7 @@ let filmes = {
     nome: "Ninja Assassino",
     classificacaoEtaria: 18
   },
- }
+]
 ---
 
 Terminou o exercício? Dá uma olhada nessa checklist e confere se tá tudo certinho, combinado?!
