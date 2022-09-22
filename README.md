@@ -128,7 +128,7 @@ console.log(numeros); // [2, 3, 4]
 
 numeros.shift(); // 2
 
-console.log(numeros); // [3, 4]
+console.log(numeros); // [3, 4]                                       
 ```
 
 ##### unshift
