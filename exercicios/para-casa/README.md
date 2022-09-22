@@ -2,8 +2,7 @@
 
 ## Nome do Exercicio
 
-- Explicação do exercício: Criar uma função que receba a idade de uma pessoa e diga quais filmes aquela pessoa pode assistir. Use como base o seguinte objeto:
-
+- Explicação do exercício: Criar uma função que receba a idade de uma pessoa e diga quais filmes aquela pessoa pode assistir. Use como base o seguinte 
 let filmes = [
   {
     nome: "Deadpool",
