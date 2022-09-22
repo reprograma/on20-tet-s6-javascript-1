@@ -68,7 +68,7 @@ let filmes = [
         return console.log (`O filme ${item.nome} é inapropriado para a sua idade`)
     }
     else {
-        return console.log (`livre para assistir ${item.nome} !`)
+        return console.log (`livre para assistir: ${item.nome} !`)
     }
     }
 
