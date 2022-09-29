@@ -68,16 +68,16 @@ function listarFilmesPermitidos(idadeRecebida) {
   }
 }
 
-listarFilmesPermitidos(idade)
+listarFilmesPermitidos(idades)
 
-function compararIdade(elemento) {
-  if (idade >= elemento.classificacaoEtaria) {
+function verificarIdade(elemento) {
+  if (idades >= elemento.classificacaoEtaria) {
     console.log(`${elemento.nome} - classificação: ${elemento.classificacaoEtaria}`)
   }
 }
 
 function listarFilmesPermitidos2() {
-  filmes.forEach(compararIdade)
+  filmes.forEach(verificarIdade)
 }
 listarFilmesPermitidos2()
 
