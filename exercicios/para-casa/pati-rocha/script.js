@@ -75,11 +75,21 @@ let idade = Number(prompt("Digite sua idade e veja quais filmes você pode assis
 }
 listarFilmesPermitidos(idade) */
 
-const filmesPermitidos = filmes.forEach((item) =>{
+/*const filmesPermitidos = filmes.forEach((item) =>{
   if (idade >= item.classificacaoEtaria) {
     console.log(`Filme: ${item.nome} - Classificação: ${item.classificacaoEtaria} anos`);    
   }
-})
+})*/
+
+//usando o filter retorna um array
+
+function listarFilmesFiltrados () {
+  let filmesFiltrados = filmes.filter((elemento) => {
+    return idade >= elemento.classificacaoEtaria
+  })
+  console.log(filmesFiltrados);
+}
+listarFilmesFiltrados(idade)
 
 
 
