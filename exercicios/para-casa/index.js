@@ -98,3 +98,5 @@ function listarFilmesPermitidos3() {
   console.log(filmesFiltrados)
 }
 listarFilmesPermitidos3()*/
+
+

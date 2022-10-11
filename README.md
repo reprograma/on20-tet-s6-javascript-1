@@ -258,6 +258,7 @@ const somar = (x, y) => {
   return x + y
 }
 
+
 somar(2, 4) // 6
 
 ```

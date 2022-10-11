@@ -64,39 +64,27 @@ let filmes = [
 
 let idade = Number(prompt("Digite sua idade e veja quais filmes você pode assistir:"));
 
-/*function faixaEtaria(item) {
-  if (idade < 12){
-    return item.classificacaoEtaria === 0
-  } else if (idade >= 12 && idade < 14) {
-    return item.classificacaoEtaria <= 12
-  } else if (idade >= 14 && idade < 16) {
-    return item.classificacaoEtaria <= 14
-  } else if (idade >= 16 && idade < 18) {
-    return item.classificacaoEtaria <= 16
-  } else if  (idade >= 18) {
-    return item.classificacaoEtaria <= 18
+
+/*function listarFilmesPermitidos(idade) {
+
+  for (let i = 0; i < filmes.length; i++) {
+    if (idade >= filmes[i].classificacaoEtaria) {
+      console.log(`Filme: ${filmes[i].nome} - Classificação: ${filmes[i].classificacaoEtaria} anos`)
+    }
   }
 }
-let filmesPorIdade = filmes.filter(faixaEtaria);
+listarFilmesPermitidos(idade) */
 
-console.log(filmesPorIdade);*/
-
-
-// console.log(filmesPorIdade);
-
-
-
-
- /*let exibir = filmes.filter((item) => {
-  if(idade < item.classificacaoEtaria) {
-  return console.log(`O filme ${item.nome} é inapropriado para sua idade!`)
-}
-else{
-  return console.log(`Livre para assistir ${item.nome} !`)
-}
-
+const filmesPermitidos = filmes.forEach((item) =>{
+  if (idade >= item.classificacaoEtaria) {
+    console.log(`Filme: ${item.nome} - Classificação: ${item.classificacaoEtaria} anos`);    
+  }
 })
-console.log(exibir); */
+
+
+
+
+
 
 
 
